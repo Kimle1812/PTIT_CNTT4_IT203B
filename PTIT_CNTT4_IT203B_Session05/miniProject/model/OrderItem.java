@@ -1,4 +1,4 @@
-package fastfood.model;
+package PTIT_CNTT4_IT203B_Session05.miniProject.model;
 
 public class OrderItem {
     private MenuItem item;

@@ -1,8 +1,8 @@
-package fastfood.test;
+package PTIT_CNTT4_IT203B_Session05.miniProject.test;
 
-import fastfood.model.Food;
-import fastfood.model.MenuItem;
-import fastfood.service.MenuService;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.Food;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.MenuItem;
+import PTIT_CNTT4_IT203B_Session05.miniProject.service.MenuService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

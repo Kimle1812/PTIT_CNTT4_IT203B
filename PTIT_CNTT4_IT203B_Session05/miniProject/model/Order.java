@@ -1,4 +1,4 @@
-package fastfood.model;
+package PTIT_CNTT4_IT203B_Session05.miniProject.model;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

@@ -1,10 +1,10 @@
-package fastfood.test;
+package PTIT_CNTT4_IT203B_Session05.miniProject.test;
 
-import fastfood.exception.InsufficientStockException;
-import fastfood.exception.InvalidOrderIdException;
-import fastfood.model.Food;
-import fastfood.model.Order;
-import fastfood.service.OrderService;
+import PTIT_CNTT4_IT203B_Session05.miniProject.exception.InsufficientStockException;
+import PTIT_CNTT4_IT203B_Session05.miniProject.exception.InvalidOrderIdException;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.Food;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.Order;
+import PTIT_CNTT4_IT203B_Session05.miniProject.service.OrderService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

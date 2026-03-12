@@ -1,7 +1,7 @@
-package fastfood.service;
+package PTIT_CNTT4_IT203B_Session05.miniProject.service;
 
-import fastfood.model.MenuItem;
-import fastfood.repository.MenuRepository;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.MenuItem;
+import PTIT_CNTT4_IT203B_Session05.miniProject.repository.MenuRepository;
 
 import java.util.List;
 import java.util.Optional;

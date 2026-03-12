@@ -1,6 +1,6 @@
-package fastfood.repository;
+package PTIT_CNTT4_IT203B_Session05.miniProject.repository;
 
-import fastfood.model.Order;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.Order;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;

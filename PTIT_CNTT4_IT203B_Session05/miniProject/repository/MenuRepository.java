@@ -1,6 +1,6 @@
-package fastfood.repository;
+package PTIT_CNTT4_IT203B_Session05.miniProject.repository;
 
-import fastfood.model.MenuItem;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.MenuItem;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;

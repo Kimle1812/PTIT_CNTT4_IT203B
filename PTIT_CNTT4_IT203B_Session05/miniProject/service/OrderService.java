@@ -1,10 +1,10 @@
-package fastfood.service;
+package PTIT_CNTT4_IT203B_Session05.miniProject.service;
 
-import fastfood.exception.InsufficientStockException;
-import fastfood.exception.InvalidOrderIdException;
-import fastfood.model.MenuItem;
-import fastfood.model.Order;
-import fastfood.repository.OrderRepository;
+import PTIT_CNTT4_IT203B_Session05.miniProject.exception.InsufficientStockException;
+import PTIT_CNTT4_IT203B_Session05.miniProject.exception.InvalidOrderIdException;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.MenuItem;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.Order;
+import PTIT_CNTT4_IT203B_Session05.miniProject.repository.OrderRepository;
 
 import java.time.LocalDate;
 import java.util.List;

@@ -1,11 +1,11 @@
-package fastfood;
+package PTIT_CNTT4_IT203B_Session05.miniProject;
 
-import fastfood.model.Drink;
-import fastfood.model.Food;
-import fastfood.model.MenuItem;
-import fastfood.model.Order;
-import fastfood.service.MenuService;
-import fastfood.service.OrderService;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.Drink;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.Food;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.MenuItem;
+import PTIT_CNTT4_IT203B_Session05.miniProject.model.Order;
+import PTIT_CNTT4_IT203B_Session05.miniProject.service.MenuService;
+import PTIT_CNTT4_IT203B_Session05.miniProject.service.OrderService;
 
 import java.time.LocalDate;
 import java.util.List;
