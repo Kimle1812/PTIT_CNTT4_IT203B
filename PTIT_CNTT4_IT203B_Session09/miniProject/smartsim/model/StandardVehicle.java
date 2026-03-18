@@ -1,0 +1,39 @@
+package PTIT_CNTT4_IT203B_Session09.miniProject.smartsim.model;
+
+import PTIT_CNTT4_IT203B_Session09.miniProject.smartsim.engine.Intersection;
+import PTIT_CNTT4_IT203B_Session09.miniProject.smartsim.traffic.TrafficLight;
+import PTIT_CNTT4_IT203B_Session09.miniProject.smartsim.util.LogUtil;
+
+import java.util.concurrent.TimeUnit;
+
+public class StandardVehicle extends Vehicle {
+    private final Intersection intersection;
+    private final TrafficLight trafficLight;
+
+    public StandardVehicle(VehicleType type, int speedMillis, Intersection intersection, TrafficLight trafficLight) {
+        super(type, speedMillis, false);
+        this.intersection = intersection;
+        this.trafficLight = trafficLight;
+    }
+
+    @Override
+    protected void driveToIntersection() throws InterruptedException {
+        LogUtil.log("%s đang di chuyển tới ngã tư", this);
+        // Simulate travel time before reaching the intersection
+        TimeUnit.MILLISECONDS.sleep(speedMillis);
+        LogUtil.log("%s đã tới ngã tư và chờ đèn", this);
+        trafficLight.registerObserver(this);
+        intersection.enterQueue(this);
+    }
+
+    @Override
+    protected void crossIntersection() throws InterruptedException {
+        intersection.awaitGreenAndCross(this);
+        trafficLight.unregisterObserver(this);
+    }
+
+    @Override
+    public void onLightChanged(PTIT_CNTT4_IT203B_Session09.miniProject.smartsim.traffic.TrafficLightState newState) {
+        // Not used in this basic model; intersection coordinates behavior.
+    }
+}
